@@ -150,3 +150,97 @@ Policy and public health recommendations
 2. Analysis focused on Lagos and results may not generalise without multi-city validation.  
 3. Potential reporting limitations in hospital data and gaps in environmental measurements.  
 4. Additional explanatory variables such as mobility, traffic counts, and land use were not included.
+
+   Ah yes, I see exactly what you mean — this setup and “how to run” section is very clear, step-by-step, and recruiter-friendly. We can do the **same for your air pollution project**, tailored to your workflow in Google Colab and Jupyter Notebook.
+
+Here’s how it could look for your project:
+
+---
+
+## Setup Instructions
+
+To run this project on your computer or in Google Colab, follow these steps carefully.
+
+* **Install Python (if using locally)**
+  Make sure Python (version 3.10 or later) is installed. You can download it from [https://python.org](https://python.org). During installation, check **“Add Python to PATH”**.
+
+* **Install Required Libraries**
+  This project uses pandas, numpy, matplotlib, seaborn, scikit-learn, Prophet, and statsmodels. To install the libraries, open your terminal or command prompt and run:
+
+  ```bash
+  pip install pandas numpy matplotlib seaborn scikit-learn prophet statsmodels
+  ```
+
+* **Clone or Download the Project from GitHub**
+  You can either clone this repository using Git:
+
+  ```bash
+  git clone https://github.com/your-username/air-pollution-respiratory-analytics.git
+  ```
+
+  Or download the ZIP file from GitHub.
+
+* **Navigate to the Project Folder**
+  Using the terminal, navigate to the folder where your Jupyter Notebook is saved:
+
+  ```bash
+  cd air-pollution-respiratory-analytics
+  ```
+
+---
+
+## How to Run the Notebook
+
+This project is designed to run in **Google Colab** or a **local Jupyter Notebook** environment.
+
+1. **Open Google Colab or Jupyter Notebook**
+
+   * Upload or open the `.ipynb` file in Colab or Jupyter.
+
+2. **Mount Google Drive (if using Colab)**
+
+   * This allows access to the datasets stored in your Google Drive. Example code:
+
+     ```python
+     from google.colab import drive
+     drive.mount('/content/drive')
+     ```
+
+3. **Load the Dataset**
+
+   * Use pandas to read the cleaned or raw CSV files, e.g.,
+
+     ```python
+     import pandas as pd
+     df = pd.read_csv('/content/drive/MyDrive/Main_cleaned_air_pollution_data.csv')
+     df.head()
+     ```
+
+4. **Run the Notebook Cells in Order**
+
+   * **Data Cleaning** → **EDA** → **Predictive Modelling** → **Visualizations**
+   * In Colab or Jupyter, click each cell and press **Shift + Enter**.
+
+5. **View Outputs**
+
+   * Plots, tables, and CSV outputs will be generated.
+   * Processed CSVs like `EDA_air_pollution_data.csv` are saved to your Drive if needed.
+
+---
+
+## Dataset
+
+The main dataset used is:
+
+* `Lagos Air Pollution & Health Data.xlsx` – raw pollution and respiratory case data
+* `Main_cleaned_air_pollution_data.csv` – cleaned data after preprocessing
+
+You can access the notebook and cleaned data here:
+
+* Notebook: `<your GitHub link>`
+* Dataset: `<your GitHub link>`
+
+
+
+
+
