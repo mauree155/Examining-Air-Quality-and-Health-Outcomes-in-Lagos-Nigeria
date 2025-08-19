@@ -18,7 +18,7 @@
 ---
 
 ## Project Overview
-Rapid urbanization in African cities like Lagos (Nigeria), Nairobi (Kenya), Accra (Ghana), and Kinshasa (DR Congo) has led to worsening air quality due to vehicle emissions, industrial activities, and poor waste management. This project analyzes satellite-recorded air pollution data alongside hospital-reported respiratory disease data in Lagos to understand the relationship between pollution levels and health outcomes. The insights aim to support urban clean air initiatives and public health interventions across Africa.
+Rapid urbanization in African cities, such as Lagos (Nigeria), Nairobi (Kenya), Accra (Ghana), and Kinshasa (DR Congo), has led to worsening air quality due to vehicle emissions, industrial activities, and inadequate waste management. This project analyzes satellite-recorded air pollution data in conjunction with hospital-reported respiratory disease data in Lagos to investigate the relationship between pollution levels and health outcomes. The insights aim to support urban clean air initiatives and public health interventions across Africa.
 
 ### Why Lagos?
 Lagos was chosen as the case study city because it represents a **typical example of rapid urban growth in Africa**.  
@@ -68,6 +68,10 @@ The analysis covers 2021 to 2023.
 | population_density         | People per square kilometre                                                 |
 | industrial_activity_index  | Proxy score from 0 to 100 indicating industrial activity                    |
 
+
+The datasets are in a Google Drive folder https://drive.google.com/drive/folders/1keLmLy5jUT9V_kmigVTymIegw5Mrnpp_
+
+
 ## 4. Research Questions
 | Category              | Questions                                                                                                                                           |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -80,7 +84,7 @@ The analysis covers 2021 to 2023.
 ## 5. Methodology
 This project was executed in Google Colab notebooks with Google Drive mounted for data access and outputs.
  
- Data Cleaning
+ ### Data Cleaning
 
 1. Imported libraries: pandas, numpy, matplotlib, and datetime.
 2. Loaded the Lagos Air Pollution and Health Data Excel file into a pandas DataFrame and previewed rows.
@@ -90,7 +94,7 @@ This project was executed in Google Colab notebooks with Google Drive mounted fo
 6. Standardized columns: renamed C to city, harmonized city names, and set data types (city and hospital_id as category, respiratory_cases as integer).
 7. Saved the cleaned DataFrame to CSV in Google Drive.
 
-Exploratory Data Analysis
+ ###Exploratory Data Analysis 
 
 1. Imported analysis and visualization packages and mounted Google Drive.
 2. Loaded Main_cleaned_air_pollution_data.csv and confirmed no missing values.
@@ -109,7 +113,8 @@ Predictive Modelling and Forecasting
 4. Evaluated forecasts against historical patterns and seasonal trends
 
 
-## 6. Exploratory Data Analysis
+## 6. Exploratory Data Analysis link
+
 
 | Analysis Area              | Key Findings                                                                                                                                                   | Insights                                                                           | Recommendations                                                                  |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
@@ -120,7 +125,7 @@ Predictive Modelling and Forecasting
 
 
 
-## 7. Predictive Modelling
+## 7. Predictive Modelling link
 | Category                | Method            | Findings                                                                | Insights and recommendations                                                            |
 |-------------------------|-------------------|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | Predictive modelling    | Linear Regression | R² approximately 0.04 and RMSE approximately 3.7, low predictive power | Simple linear models with lagged features did not capture complex relationships         |
