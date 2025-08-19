@@ -151,11 +151,6 @@ Policy and public health recommendations
 3. Potential reporting limitations in hospital data and gaps in environmental measurements.  
 4. Additional explanatory variables such as mobility, traffic counts, and land use were not included.
 
-   Ah yes, I see exactly what you mean — this setup and “how to run” section is very clear, step-by-step, and recruiter-friendly. We can do the **same for your air pollution project**, tailored to your workflow in Google Colab and Jupyter Notebook.
-
-Here’s how it could look for your project:
-
----
 
 ## Setup Instructions
 
