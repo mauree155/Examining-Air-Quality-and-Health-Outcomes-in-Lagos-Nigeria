@@ -2,22 +2,21 @@
 **Case Study: Lagos, Nigeria**
 
 ## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Objectives](#objectives)
-3. [Data Dictionary](#data-dictionary)
-4. [Research Questions](#research-questions)
-5. [Methodology](#methodology)
-6. [Exploratory Data Analysis](#exploratory-data-analysis)
-7. [Predictive Modelling](#predictive-modelling)
-8. [Results and Recommendations](#results-and-recommendations)
-9. [Limitations](#limitations)
-10. [Setup instructions](#setup-instructions)
-11. [How to Run the Notebook](#how-to-run-the-notebook)
-12. [Acknowledgements](#acknowledgements)
+1. [Project Overview](project-overview)
+2. [Objectives](objectives)
+3. [Data Dictionary](data-dictionary)
+4. [Research Questions](research-questions)
+5. [Methodology](methodology)
+6. [Exploratory Data Analysis](exploratory-data-analysis)
+7. [Predictive Modelling](predictive-modelling)
+8. [Results and Recommendations](results-and-recommendations)
+9. [Limitations](limitations)
+10. [Setup instructions](setup-instructions)
+11. [How to Run the Notebook](how-to-run-the-notebook)
+12. [Acknowledgements](acknowledgements)
 
----
 
-## Project Overview
+## 1. Project Overview
 Rapid urbanization in African cities, such as Lagos (Nigeria), Nairobi (Kenya), Accra (Ghana), and Kinshasa (DR Congo), has led to worsening air quality due to vehicle emissions, industrial activities, and inadequate waste management. This project analyzes satellite-recorded air pollution data in conjunction with hospital-reported respiratory disease data in Lagos to investigate the relationship between pollution levels and health outcomes. The insights aim to support urban clean air initiatives and public health interventions across Africa.
 
 ### Why Lagos?
@@ -69,9 +68,6 @@ The analysis covers 2021 to 2023.
 | industrial_activity_index  | Proxy score from 0 to 100 indicating industrial activity                    |
 
 
-https://drive.google.com/drive/folders/1keLmLy5jUT9V_kmigVTymIegw5Mrnpp_
-
-
 ## 4. Research Questions
 | Category              | Questions                                                                                                                                           |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -105,7 +101,7 @@ This project was executed in Google Colab notebooks with Google Drive mounted fo
 7. Computed and visualized correlations between pollutants and respiratory cases with a heatmap and scatter plots. Reported Pearson correlations.
 8. Saved the processed DataFrame with the season column as EDA_air_pollution_data.csv.
 
-Predictive Modelling and Forecasting
+### Predictive Modelling and Forecasting
 
 1. Built regression models: Linear Regression and Random Forest with lagged pollutant features.
 2. Trained time series models for respiratory cases using Prophet and ARIMA.
@@ -136,8 +132,8 @@ Predictive Modelling and Forecasting
 
 
 
-## 8. Results and Recommendations
-Results summary  
+## 8. keyaways and Recommendations
+keyaways 
 1. Pollution levels were consistently higher in the dry season and were elevated in early-year months.  
 2. Ikeja and Yaba carried the largest respiratory case burdens.  
 3. PM2.5 showed the clearest positive association with respiratory cases among individual pollutants, though the effect size was modest.  
@@ -150,14 +146,14 @@ Policy and public health recommendations
 4. Integrate weather, population density, and industrial activity in planning and resource allocation.  
 5. Run public awareness programmes on protective behaviours during high-risk months.
    
-## 10. Limitations
+## 9. Limitations
 1. Correlations between single pollutants and respiratory cases were modest and may not capture multi-factor dynamics.  
 2. Analysis focused on Lagos and results may not generalise without multi-city validation.  
 3. Potential reporting limitations in hospital data and gaps in environmental measurements.  
 4. Additional explanatory variables such as mobility, traffic counts, and land use were not included.
 
 
-## Setup Instructions
+## 10. Setup Instructions
 
 To run this project on your computer or in Google Colab, follow these steps carefully.
 
@@ -187,9 +183,8 @@ To run this project on your computer or in Google Colab, follow these steps care
   cd air-pollution-respiratory-analytics
   ```
 
----
 
-## How to Run the Notebook
+## 11. How to Run the Notebook
 
 This project is designed to run in **Google Colab** or a **local Jupyter Notebook** environment.
 
@@ -226,7 +221,6 @@ This project is designed to run in **Google Colab** or a **local Jupyter Noteboo
    * Plots, tables, and CSV outputs will be generated.
    * Processed CSVs like `EDA_air_pollution_data.csv` are saved to your Drive if needed.
 
----
 
 ## Dataset
 
@@ -238,10 +232,16 @@ The main dataset used is:
 You can access the notebook and cleaned data here:
 
 * Notebook:
-  - 1. Data_cleaning
-    2. EDA
-    3. Predictive modelling 
-* Dataset: Access the folder via google drive : <a href="https://drive.google.com/drive/folders/1keLmLy5jUT9V_kmigVTymIegw5Mrnpp_">Here</a>
+  - 1. <a href="https://github.com/mauree155/Examining-Air-Quality-and-Health-Outcomes-in-Lagos-Nigeria/blob/main/Data_Cleaning.ipynb">Data_cleaning</a>
+  
+    2. <a href="https://github.com/mauree155/Examining-Air-Quality-and-Health-Outcomes-in-Lagos-Nigeria/blob/main/EDA_Report.ipynb">EDA</a>
+    3. <a href="https://github.com/mauree155/Examining-Air-Quality-and-Health-Outcomes-in-Lagos-Nigeria/blob/main/Predicitve_Modelling.ipynb">Predictive modelling</a>
+* Dataset: Access the folder via google drive  <a href="https://drive.google.com/drive/folders/1keLmLy5jUT9V_kmigVTymIegw5Mrnpp_">Here</a>
+
+ ## 12. Acknowledgement
+
+Thanks to **DataVerse** for the dataset & mentorship and to my **team members** for their support in this project.
+
 
 
 
