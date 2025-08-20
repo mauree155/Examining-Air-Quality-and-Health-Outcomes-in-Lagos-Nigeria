@@ -6,13 +6,13 @@
 2. [Objectives](#objectives)
 3. [Data Dictionary](#data-dictionary)
 4. [Research Questions](#research-questions)
-5. [Exploratory Data Analysis](#exploratory-data-analysis)
-6. [Predictive Modelling](#predictive-modelling)
-7. [Results and Recommendations](#results-and-recommendations)
-8. [Tools and Libraries](#tools-and-libraries)
+5. [Methodology](#methodology)
+6. [Exploratory Data Analysis](#exploratory-data-analysis)
+7. [Predictive Modelling](#predictive-modelling)
+8. [Results and Recommendations](#results-and-recommendations)
 9. [Limitations](#limitations)
-10. [How to Run the Project](#how-to-run-the-project)
-11. [Future Work](#future-work)
+10. [Setup instructions](#setup-instructions)
+11. [How to Run the Notebook](#how-to-run-the-notebook)
 12. [Acknowledgements](#acknowledgements)
 
 ---
@@ -69,7 +69,7 @@ The analysis covers 2021 to 2023.
 | industrial_activity_index  | Proxy score from 0 to 100 indicating industrial activity                    |
 
 
-The datasets are in a Google Drive folder https://drive.google.com/drive/folders/1keLmLy5jUT9V_kmigVTymIegw5Mrnpp_
+https://drive.google.com/drive/folders/1keLmLy5jUT9V_kmigVTymIegw5Mrnpp_
 
 
 ## 4. Research Questions
@@ -94,7 +94,7 @@ This project was executed in Google Colab notebooks with Google Drive mounted fo
 6. Standardized columns: renamed C to city, harmonized city names, and set data types (city and hospital_id as category, respiratory_cases as integer).
 7. Saved the cleaned DataFrame to CSV in Google Drive.
 
- ###Exploratory Data Analysis 
+ ### Exploratory Data Analysis 
 
 1. Imported analysis and visualization packages and mounted Google Drive.
 2. Loaded Main_cleaned_air_pollution_data.csv and confirmed no missing values.
@@ -237,8 +237,11 @@ The main dataset used is:
 
 You can access the notebook and cleaned data here:
 
-* Notebook: `<your GitHub link>`
-* Dataset: `<your GitHub link>`
+* Notebook:
+  - 1. Data_cleaning
+    2. EDA
+    3. Predictive modelling 
+* Dataset: Access the folder via google drive : <a href="https://drive.google.com/drive/folders/1keLmLy5jUT9V_kmigVTymIegw5Mrnpp_">Here</a>
 
 
 
