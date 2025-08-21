@@ -109,7 +109,7 @@ This project was executed in Google Colab notebooks with Google Drive mounted fo
 4. Evaluated forecasts against historical patterns and seasonal trends
 
 
-## 6. Exploratory Data Analysis link
+## 6. Exploratory Data Analysis
 
 
 | Analysis Area              | Key Findings                                                                                                                                                   | Insights                                                                           | Recommendations                                                                  |
@@ -121,7 +121,7 @@ This project was executed in Google Colab notebooks with Google Drive mounted fo
 
 
 
-## 7. Predictive Modelling link
+## 7. Predictive Modelling
 | Category                | Method            | Findings                                                                | Insights and recommendations                                                            |
 |-------------------------|-------------------|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | Predictive modelling    | Linear Regression | R² approximately 0.04 and RMSE approximately 3.7, low predictive power | Simple linear models with lagged features did not capture complex relationships         |
