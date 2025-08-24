@@ -2,19 +2,19 @@
 **Case Study: Lagos, Nigeria**
 
 ## Table of Contents
-1. [Project Overview](project-overview)
-2. [Objectives](objectives)
-3. [Data Dictionary](data-dictionary)
-4. [Research Questions](research-questions)
-5. [Methodology](methodology)
-6. [Exploratory Data Analysis](exploratory-data-analysis)
-7. [Predictive Modelling](predictive-modelling)
-8. [Results and Recommendations](results-and-recommendations)
-9. [Limitations](limitations)
-10. [Setup instructions](setup-instructions)
-11. [How to Run the Notebook](how-to-run-the-notebook)
-12. [Acknowledgements](acknowledgements)
-
+## Table of Contents
+1. [Project Overview](#1-project-overview)
+2. [Objectives](#2-objectives)
+3. [Data Dictionary](#3-data-dictionary)
+4. [Research Questions](#4-research-questions)
+5. [Methodology](#5-methodology)
+6. [Exploratory Data Analysis](#6-exploratory-data-analysis)
+7. [Predictive Modelling](#7-predictive-modelling)
+8. [Key Takeaways and Recommendations](#8-key-takeaways-and-recommendations)
+9. [Limitations](#9-limitations)
+10. [Setup instructions](#10-setup-instructions)
+11. [How to Run the Notebook](#11-how-to-run-the-notebook)
+12. [Acknowledgements](#12-acknowledgements)
 
 ## 1. Project Overview
 Rapid urbanization in African cities, such as Lagos (Nigeria), Nairobi (Kenya), Accra (Ghana), and Kinshasa (DR Congo), has led to worsening air quality due to vehicle emissions, industrial activities, and inadequate waste management. This project analyzes satellite-recorded air pollution data in conjunction with hospital-reported respiratory disease data in Lagos to investigate the relationship between pollution levels and health outcomes. The insights aim to support urban clean air initiatives and public health interventions across Africa.
@@ -132,7 +132,7 @@ This project was executed in Google Colab notebooks with Google Drive mounted fo
 
 
 
-## 8. keyaways and Recommendations
+## 8. key Takeaways and Recommendations
 keyaways 
 1. Pollution levels were consistently higher in the dry season and were elevated in early-year months.  
 2. Ikeja and Yaba carried the largest respiratory case burdens.  
@@ -238,7 +238,7 @@ You can access the notebook and cleaned data here:
     3. <a href="https://github.com/mauree155/Examining-Air-Quality-and-Health-Outcomes-in-Lagos-Nigeria/blob/main/Predicitve_Modelling.ipynb">Predictive modelling</a>
 * Dataset: Access the folder via google drive  <a href="https://drive.google.com/drive/folders/1keLmLy5jUT9V_kmigVTymIegw5Mrnpp_">Here</a>
 
- ## 12. Acknowledgement
+ ## 12. Acknowledgements
 
 Thanks to **DataVerse** for the dataset & mentorship and to my **team members** for their support in this project.
 
